@@ -3,6 +3,9 @@ import argparse
 import optparse
 import subprocess
 
+#Usage: python Magic-bytes-modifier.py -t jpeg -f YOUR-FILE-NAME
+
+
 
 magic_bytes = {
     "jpeg": ["FF D8 FF DB"],
